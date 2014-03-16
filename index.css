@@ -1,0 +1,72 @@
+    body {
+        background-color: gray;
+        font-family: Verdana, Geneva, sans-serif;
+    }
+    .style-center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .CodeGolfWindow {
+        border: solid black 1px;
+        background-color: silver;
+    }
+    .CodeGolfTitle {
+        border: solid black 1px;
+        background-color: navy;
+        color: white;
+        padding: 8px;
+    }
+    .CodeGolfProblem {
+        border: solid black 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+    .ProblemMenuItem {
+        background-color: oldlace;
+        font-weight: bold;
+    }
+    .ProblemSelected {
+        background-color: white;
+        font-weight: bold;
+    }
+    .CodeGolfIntro {
+        background-color: palegreen;
+        border: 1px outset gray;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .CodeGolfTab {
+        width: 200px;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .ActiveTab {
+        border-bottom: hidden;
+        background-color: white;
+        font-weight: bold;
+    }
+    .InactiveTab {
+        border-bottom: 1px solid black;
+        background-color: lightblue;
+        cursor: pointer;
+        font-weight: normal;
+    }
+    .CodeGolfBody {
+        height: 500px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 20px;
+        background-color: white;
+        vertical-align: top
+    }
+    .ActiveBody {
+        display: block;
+    }
+    .InactiveBody {
+        display: none;
+    }
