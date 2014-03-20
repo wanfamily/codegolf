@@ -62,42 +62,44 @@
                             </td>
                         </tr>
                         <tr>
-                            <td id="Body1" class="CodeGolfBody ActiveBody" colspan="4" width="400">
-                                <div class="CodeGolfIntro">
-                                <p><b>Code golf</b> is a type of recreational computer programming competition in which participants strive to
-                                achieve the shortest possible code that implements a certain algorithm.
-                                You can read more about <a href="http://en.wikipedia.org/wiki/Code_golf" target="_blank">code golf on Wikipedia</a>.</p>
-                                
-                                <p>This website features some code golf problems and solutions that I solved using <b>JavaScript</b>.
-                                You can select from a list of problems from the list on the left.
-                                You can read a description of the selected problem under the [Problem] tab.
-                                You can test the solution in the [Solution] tab.
-                                You can take a look at the JavaScript source code in the [Source Code] tab.
-                                </p>
-                                
-                                <p>You can find more computer programming problems from these site: <br>
-                                - <a href="http://golf.shinh.org/" target="_blank">http://golf.shinh.org/</a><br>
-                                - <a href="http://codegolf.com/" target="_blank">http://codegolf.com/</a><br>
-                                - <a href="https://projecteuler.net/" target="_blank">https://projecteuler.net/</a><br>
-                                </p>
+                            <td class="CodeGolfMainBody" colspan="4">
+                                <div id="Body1" class="CodeGolfBody ActiveBody">
+                                    <div class="CodeGolfIntro">
+                                    <p><b>Code golf</b> is a type of recreational computer programming competition in which participants strive to
+                                    achieve the shortest possible code that implements a certain algorithm.
+                                    You can read more about <a href="http://en.wikipedia.org/wiki/Code_golf" target="_blank">code golf on Wikipedia</a>.</p>
+                                    
+                                    <p>This website features some code golf problems and solutions that I solved using <b>JavaScript</b>.
+                                    You can select from a list of problems from the list on the left.
+                                    You can read a description of the selected problem under the [Problem] tab.
+                                    You can test the solution in the [Solution] tab.
+                                    You can take a look at the JavaScript source code in the [Source Code] tab.
+                                    </p>
+                                    
+                                    <p>You can find more computer programming problems from these site: <br>
+                                    - <a href="http://golf.shinh.org/" target="_blank">http://golf.shinh.org/</a><br>
+                                    - <a href="http://codegolf.com/" target="_blank">http://codegolf.com/</a><br>
+                                    - <a href="https://projecteuler.net/" target="_blank">https://projecteuler.net/</a><br>
+                                    </p>
+                                    </div>
+                                    
+                                    <p><b>1. Hello World</b><br>
+                                    The first problem is the famous Hello World program where you print or return "Hello, world!".
+                                    (Note: This program does not take any input.)</p>
                                 </div>
-                                
-                                <p><b>1. Hello World</b><br>
-                                The first problem is the famous Hello World program where you print or return "Hello, world".
-                                (Note: This program does not take any input.)</p>
-                            </td>
-                            <td id="Body2" class="CodeGolfBody InactiveBody" colspan="4" >
-                                <table width="100%" cellspacing="0" cellpadding="0"><tr>
-                                <td align="left">[<a href="DouglasWan.pdf">Download PDF version</a>]</td>
-                                </tr></table>
-                                <iframe style="width:100%; height:100%" src="DouglasWan.htm" target="_blank"></iframe>
-                            </td>
-                            <td id="Body3" class="CodeGolfBody InactiveBody" colspan="4" >
-                                <table width="100%" cellspacing="0" cellpadding="0"><tr>
-                                <td align="left">[<a href="DouglasWan_Portfolio/DouglasWan_Portfolio.pdf" target="_blank">Download PDF version</a>]</td>
-                                <td align="right">[<a href="DouglasWan_Portfolio/DouglasWan_Portfolio.pptx" target="_blank">Download PowerPoint (PPTX) version</a>]</td>
-                                </tr></table>
-                                <iframe style="width:100%; height:100%" src="DouglasWan_Portfolio/Slides.htm"></iframe>
+                                <div id="Body2" class="CodeGolfBody InactiveBody">
+                                    Input:<br>                                    
+                                    <textarea id="InputText" class="Input"></textarea>
+                                    <button >Run</button><br>
+                                    <br>
+                                    Output:<br>                                    
+                                    <textarea id="OutputText" class="Output" readonly="readonly">Hello, world!</textarea>
+                                </div>
+                                <div id="Body3" class="CodeGolfBody InactiveBody">
+                                    function mySourceCode(input) {
+                                    <textarea id="SourceCodeText" class="SourceCode" readonly="readonly">return("Hello, world!");</textarea>
+                                    }
+                                </div>
                             </td>
                         </tr>
                     </table>    
