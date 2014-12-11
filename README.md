@@ -1,5 +1,5 @@
-## [Douglas Wan - Code Golf](http://douglas.wanfamilyweb.com/codegolf/) ##
-[http://douglas.wanfamilyhome.com/codegolf/](http://douglas.wanfamilyweb.com/codegolf/)
+## [Douglas Wan - Code Golf](https://github.com/wanfamily/codegolf/) ##
+[https://github.com/wanfamily/codegolf/](https://github.com/wanfamily/codegolf/)
 
 Code golf is a type of recreational computer programming competition in which participants strive to achieve the shortest possible code that implements a certain algorithm. You can read more about [code golf on Wikipedia](http://en.wikipedia.org/wiki/Code_golf).
 
